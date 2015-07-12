@@ -1,14 +1,11 @@
 #include "MonTestQt.h"
 #include <QtWidgets>
 #include <QtTest/QtTest>
-
+#include "outputui.h"
 
 // Tests that the Foo::Bar() method does Abc.
 TEST_F(MonTestQt, MethodBarDoesAbc)
 {
-	const std::string input_filepath = "this/package/testdata/myinputfile.dat";
-	const std::string output_filepath = "this/package/testdata/myoutputfile.dat";
-	//Foo f;
 	EXPECT_EQ(0, 1);
 }
 
@@ -31,3 +28,28 @@ TEST_F(MonTestQt, QTLine)
 	EXPECT_EQ(lineEdit.text(), QString("hello world"));
 
 }
+
+// Tests that Foo does Xyz.
+TEST_F(MonTestQt, QtOutPutUi)
+{
+	// Exercises the Xyz feature of Foo.
+	OutputUi outputUi(0);
+
+	EXPECT_STREQ("Output", outputUi.windowTitle().toStdString().c_str());
+}
+
+// Tests that Foo does Xyz.
+TEST_F(MonTestQt, QtOutPutUiLog)
+{
+	// Exercises the Xyz feature of Foo.
+	OutputUi outputUi(0);
+	QSignalSpy spy(&outputUi, SIGNAL(log(const QString&)));
+
+	outputUi.Log("Coucou");
+
+	QList<QVariant> arguments = spy.takeFirst();
+	EXPECT_EQ(1, spy.count());
+	EXPECT_STREQ("Coucou", arguments.at(0).toString().toStdString().c_str());
+
+}
+

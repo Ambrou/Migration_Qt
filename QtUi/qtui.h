@@ -12,7 +12,10 @@ public:
 	QtUi(QWidget *parent = 0);
 	~QtUi();
 
+
 private:
+	void createDockWindows();
+
 	Ui::QtUiClass ui;
 };
 
