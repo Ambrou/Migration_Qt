@@ -48,7 +48,7 @@ TEST_F(MonTestQt, QtOutPutUiLog)
 	outputUi.Log("Coucou");
 
 	QList<QVariant> arguments = spy.takeFirst();
-	EXPECT_EQ(1, spy.count());
+	EXPECT_EQ(1, arguments.count());
 	EXPECT_STREQ("Coucou", arguments.at(0).toString().toStdString().c_str());
 
 }
