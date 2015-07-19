@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/QtUi"/>
+    <qresource prefix="/images">
+        <file>legend_status.bmp</file>
+        <file>pass.bmp</file>
+        <file>bmpLoadSequ.bmp</file>
+        <file>bmpReplay.bmp</file>
+        <file>bmpSave.bmp</file>
+        <file>bmpStopReplay.bmp</file>
+        <file>trash.bmp</file>
+        <file>Connect_Acquisition.bmp</file>
+        <file>Connect_Detector.bmp</file>
+        <file>Connect_Generator.bmp</file>
+        <file>Connect_RTC.bmp</file>
+        <file>Disconnect_Acquisition.bmp</file>
+        <file>Disconnect_Detector.bmp</file>
+        <file>Disconnect_Generator.bmp</file>
+        <file>Disconnect_RTC.bmp</file>
+        <file>Reset_RTC.bmp</file>
+        <file>OpenPKA.bmp</file>
+        <file>SendPKA.bmp</file>
+        <file>StartControlledAcquisition.bmp</file>
+        <file>StopControlledAcquisition.bmp</file>
+        <file>bindlut.bmp</file>
+        <file>cur_do_f.bmp</file>
+        <file>cur_down.bmp</file>
+        <file>cur_le.bmp</file>
+        <file>cur_le_f.bmp</file>
+        <file>cur_ri.bmp</file>
+        <file>cur_ri_f.bmp</file>
+        <file>cur_up.bmp</file>
+        <file>cur_up_f.bmp</file>
+        <file>About.bmp</file>
+        <file>Copy.bmp</file>
+        <file>Cut.bmp</file>
+        <file>Help.bmp</file>
+        <file>New.bmp</file>
+        <file>Open.bmp</file>
+        <file>Paste.bmp</file>
+        <file>Save.bmp</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>offsetlut.ico</file>
+    </qresource>
+</RCC>
