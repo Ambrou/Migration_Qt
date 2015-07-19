@@ -12,9 +12,12 @@ public:
 	QtUi(QWidget *parent = 0);
 	~QtUi();
 
+protected:
+	void closeEvent(QCloseEvent *event) Q_DECL_OVERRIDE;
 
 private:
 	void createDockWindows();
+	void readSettings();
 
 	Ui::QtUiClass ui;
 };

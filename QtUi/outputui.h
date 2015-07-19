@@ -1,7 +1,7 @@
 #pragma once
 
 #include <QDockWidget>
-#include "ui_Output.h"
+#include "ui_OutputUi.h"
 
 class OutputUi : public QDockWidget
 {
