@@ -47,9 +47,6 @@
     <ClCompile Include="GeneratedFiles\Release\moc_qtui.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_qtui.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
     <ClCompile Include="outputui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -59,30 +56,185 @@
     <ClCompile Include="GeneratedFiles\Release\moc_outputui.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_qtui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HardwareMessageUi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HardwareMessageUi.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HardwareMessageUi.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptsTreeViewUi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScriptsTreeViewUi.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScriptsTreeViewUi.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HeaderImageUi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagementUi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayToolsUi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="qtui.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="qtui.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="qtui.qrc">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="Output.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="outputui.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="Forms\OutputUi.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Forms\qtui.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\qtui.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Forms\HardwareMessageUi.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HardwareMessageUi.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Forms\ScriptTreeUi.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ScriptsTreeViewUi.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Forms\HeaderImageUi.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Forms\MemoryManagementUi.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Forms\DisplayToolsUi.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_OutputUi.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_qtui.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_Output.h">
+    <ClInclude Include="GeneratedFiles\ui_HardwareMessageUi.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ScriptTreeUi.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderImageUi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_HeaderImageUi.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MemoryManagementUi.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManagementUi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DisplayToolsUi.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayToolsUi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\legend_status.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\pass.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\bmpLoadSequ.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\bmpReplay.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\bmpSave.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\bmpStopReplay.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\trash.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Connect_Acquisition.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Connect_Detector.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Connect_Generator.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Connect_RTC.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Disconnect_Acquisition.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Disconnect_Detector.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Disconnect_Generator.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Disconnect_RTC.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Reset_RTC.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\bindlut.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\offsetlut.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\cur_do_f.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\cur_down.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\cur_le.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\cur_le_f.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\cur_ri.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\cur_ri_f.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\cur_up.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\cur_up_f.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
